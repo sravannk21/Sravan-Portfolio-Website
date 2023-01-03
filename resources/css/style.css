@@ -12,18 +12,41 @@ html {
     font-weight: 400;
     text-rendering: optimizeLegibility;
 }
-
+section {
+    padding: 80px 0;
+}
 .row {
     width: 1140px;
     margin: 0 auto;
 }
-h1 {
-    font-size: 400%;
+.background-text {
+    font-size: 600%;
+    font-weight: 400;
+    color: rgba(198, 188, 188, 0.242);
+    position:absolute;
+    margin-top: 35px;
+    z-index: -1;
+}
+h1,h2 {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 1px;
+}
+.long-text {
+    color: #a6a3a3;
+    font-size: 85%;
+    line-height: 140%;
+    word-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 240%;
     line-height: 1.5;
     word-spacing: 4px;
+}
+h2 {
+    font-size: 180%;
 }
 
 /*----BUTTON----*/
@@ -104,4 +127,38 @@ header {
 .main-nav li a:active {
     padding-bottom: 6px;
     border-bottom: 1.5px solid #ffbd39;
+}
+
+/*-------------------------*/
+/*ABOUT SECTION*/
+/*-------------------------*/
+.about-img {
+    height: auto;
+}
+.about-title {
+    margin: 15px 0;
+}
+.about-content-box {
+    padding-top: 15px;
+}
+.about-details {
+    margin-top: 30px;
+}
+.about-details li {
+    list-style: none;
+    margin: 30px 0;
+    color: #a6a3a3;
+    font-size: 85%;
+    display: flex;
+}
+.about-details span:first-child {
+    color: #fff;
+    margin-right: 20px;
+    width: 130px;
+}
+.about-details span:last-child {
+    width: 100%;
+}
+.about-content-box div:last-of-type {
+    padding-bottom: 40px;
 }
