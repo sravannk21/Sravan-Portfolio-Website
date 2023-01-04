@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+*:focus {
+    outline: none;
+}
 html {
     background-color: #000;
     color: #fff;
@@ -281,4 +284,58 @@ header {
 }
 .skill:last-of-type {
     margin-bottom: 25px;
+}
+
+/*-------------------------*/
+/*CONTACT*/
+/*-------------------------*/
+
+.contact-section h2, .long-text {
+    text-align: center;
+}
+.contact-section .long-text {
+    margin: 30px 0;
+}
+.info-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #191919;
+    padding: 2px;
+    border-radius: 50%;
+    margin: auto;
+}
+.informations h4 {
+    text-align: center;
+    margin-top: 20px;
+}
+.informations p{
+    font-size: 85%;
+}
+
+.contact-form .span-1-of-2:first-child {
+    text-align: center;
+    background: #191919;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.contact-form .span-1-of-2:last-child {
+    background: #efefef;
+    margin-left: 0;
+    padding: 40px;
+}
+.form-control {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #555;
+    height: 52px;
+    padding: 5px;
+    font-size: 80%;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+textarea{
+    height: 6rem !important;
+}
+.contact-img {
+    height: 502px;
 }
