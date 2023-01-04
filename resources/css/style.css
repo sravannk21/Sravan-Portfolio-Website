@@ -22,12 +22,12 @@ section {
 .background-text {
     font-size: 600%;
     font-weight: 400;
-    color: rgba(198, 188, 188, 0.242);
+    color: rgba(198, 188, 188, 0.064);
     position:absolute;
     margin-top: 35px;
     z-index: -1;
 }
-h1,h2 {
+h1,h2,h3,h4,h5 {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 1px;
@@ -48,7 +48,17 @@ h1 {
 h2 {
     font-size: 180%;
 }
-
+h3 {
+    color: #f4a300;
+}
+h4 {
+    font-size: 80%;
+    margin: 10px 0;
+}
+h5 {
+    font-size: 60%;
+    color: #a6a3a3;
+}
 /*----BUTTON----*/
 .btn:link,
 .btn:visited {
@@ -79,7 +89,7 @@ h2 {
 /*HEADER*/
 /*-------------------------*/
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('./img/header_bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url('./img/header_bg.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -161,4 +171,31 @@ header {
 }
 .about-content-box div:last-of-type {
     padding-bottom: 40px;
+}
+
+/*-------------------------*/
+/*RESUME*/
+/*-------------------------*/
+.resume-section h2 {
+    text-align: center;
+}
+.resume-section .background-text {
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.resume-section .long-text {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/*-------------------------*/
+/*QUALIFICATIONS*/
+/*-------------------------*/
+.qualification-box {
+    background-color: #191919;
+    border-radius: 5px;
+    padding: 20px;
+}
+.qualification-box p {
+    text-align: left;
 }
