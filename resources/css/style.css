@@ -242,3 +242,12 @@ header {
     text-align: center;
     margin-bottom: 40px;
 }
+.service h4::after {
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: #f4a300;
+    margin: 0 auto;
+    margin-top: 20px;
+    content: "";
+}
