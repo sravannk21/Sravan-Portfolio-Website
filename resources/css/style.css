@@ -26,6 +26,8 @@ section {
     position:absolute;
     margin-top: 35px;
     z-index: -1;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 h1,h2,h3,h4,h5 {
     text-transform: uppercase;
@@ -83,6 +85,15 @@ h5 {
 .btn-transparent:active {
     background-color: #f4a300;
     border: 1px solid #f4a300;
+}
+
+/*----ICONS-BIG----*/
+.icon-big {
+    display: block;
+    font-size: 60px;
+    color: #f4a300;
+    margin: 15px 0;
+    text-align: center;
 }
 
 /*-------------------------*/
@@ -154,6 +165,9 @@ header {
 .about-details {
     margin-top: 30px;
 }
+.about-section .background-text {
+    right: 50%;
+}
 .about-details li {
     list-style: none;
     margin: 30px 0;
@@ -179,10 +193,6 @@ header {
 .resume-section h2 {
     text-align: center;
 }
-.resume-section .background-text {
-    left: 50%;
-    transform: translate(-50%, 0);
-}
 .resume-section .long-text {
     margin: 20px 0;
     text-align: center;
@@ -198,4 +208,37 @@ header {
 }
 .qualification-box p {
     text-align: left;
+}
+
+/*-------------------------*/
+/*WHAT-I-DO*/
+/*-------------------------*/
+
+.what-i-do-section h2 {
+    text-align: center;
+}
+.what-i-do-section .long-text {
+    text-align: center;
+    margin: 20px 0;
+}
+.service-box div {
+    margin-bottom: 20px;
+}
+.service {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #191919;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.service .icon-big {
+    color: #fff;
+}
+.service:hover,
+.service:active {
+    background-color: #f4a300;
+}
+.service h4 {
+    text-align: center;
+    margin-bottom: 40px;
 }
