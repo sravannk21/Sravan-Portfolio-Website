@@ -339,3 +339,60 @@ textarea{
 .contact-img {
     height: 502px;
 }
+
+/*-------------------------*/
+/*FOOTER*/
+/*-------------------------*/
+footer {
+    margin-bottom: 80px;
+}
+.footer-nav {
+    margin: 10px 0;
+}
+.footer-nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    text-decoration: none;
+    color: #a6a3a3;
+    font-size: 85%;
+    text-transform: capitalize;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 5px;
+    transition: border-bottom 0.5s;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    border-bottom: 1px solid #f4a300;
+    padding-bottom: 5px;
+}
+.social-icons {
+    margin: 10px 0;
+    float: right;
+}
+.social-icons li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+.social-icons li a:link,
+.social-icons li a:visited {
+    font-size: 25px;
+    color: #f4a300;
+}
+.social-icons li a:hover,
+.social-icons li a:active {
+    color: #a6a3a3;
+}
+.social-icons li:last-child {
+    margin: 0;
+}
+.copyright {
+    font-size: 85%;
+    color: #a6a3a3;
+    text-align: center;
+    margin-top: 25px
+}
