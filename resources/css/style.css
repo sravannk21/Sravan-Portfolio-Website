@@ -133,6 +133,13 @@ header {
 .logo h1 {
     margin:0;
 }
+.sticky {
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    box-shadow: 0 2px 2px #212121;
+    z-index: 9999;
+}
 .main-nav {
     float: right;
 }
