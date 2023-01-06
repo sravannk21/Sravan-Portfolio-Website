@@ -415,3 +415,21 @@ footer {
     text-align: center;
     margin-top: 25px
 }
+
+
+/*----SCROLL-TO-TOP------*/
+
+.scroll-top {
+    position: fixed;
+    text-align: center;
+    padding: 2px;
+    color: #fff;
+    background-color: #f4a300;
+    font-size: 30px;
+    right: 11rem;
+    bottom: 2rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 0.25rem 0.5rem 0 rgb(36, 36, 36);
+  }

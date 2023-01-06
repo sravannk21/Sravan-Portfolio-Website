@@ -13,7 +13,7 @@
     <title>Sravan NK | Portfolio</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav>
             <div class="row">
                 <div class="logo">
@@ -21,22 +21,22 @@
                 </div>
                 <ul class="main-nav">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#what-i-do">What i do</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <div class="header-text">
             <h1>Hello! I'm <span class="highlighting-text">SRAVAN NK</span><br>A <span class="highlighting-text">MERN</span> Stack Developer</h1>
-            <a href="#" class="btn btn-fill">Hire me</a>
-            <a href="#" class="btn btn-transparent">About me</a>
+            <a href="#" class="btn btn-fill js-connect">Connect me</a>
+            <a href="#" class="btn btn-transparent js-about">About me</a>
         </div>
     </header>
 
-    <section class="about-section js-about-section">
+    <section class="about-section js-about-section" id="about">
         <div class="row">
             <div class="col span-1-of-2">
                 <img src="./resources/img/about-bg.png" class="about-img" alt="Sravan NK"/>
@@ -64,7 +64,7 @@
         </div>
     </section>
 
-    <section class="resume-section">
+    <section class="resume-section" id="resume">
         <div class="row">
             <span class="background-text"><b>Resume</b></span>
             <h2>Resume</h2>
@@ -133,7 +133,7 @@
         </div>
     </section>
 
-    <section class="what-i-do-section">
+    <section class="what-i-do-section" id="what-i-do">
         <div class="row">
             <span class="background-text"><b>What I Do</b></span>
             <h2>What I Do</h2>
@@ -176,7 +176,7 @@
         </di>
     </section>
 
-    <section class="my-skills-section">
+    <section class="my-skills-section" id="skill">
         <div class="row">
             <span class="background-text"><b>Skills</b></span>
             <h2>My Skills</h2>
@@ -248,7 +248,7 @@
         </div>
     </section>
 
-    <section class="contact-section">
+    <section class="contact-section js-contact" id="contact">
         <div class="row">
             <div class="background-text"><b>Contact</b></div>
             <h2>Contact Me</h2>
@@ -341,6 +341,7 @@
             </div>
         </div>
     </section>
+    <a href='#header' title="scroll to top"><i class="ion-arrow-up-b"></i></a>
 
     <footer>
         <div class="row">
