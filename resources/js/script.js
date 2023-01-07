@@ -31,6 +31,44 @@ $('document').ready(function(){
         $('html, body').animate({scrollTop: $('.js-contact').offset().top},1000)
     })
 
+    /* ANIMATIONS*/
+    $('.about-img').waypoint(function(direction){
+        $('.about-img').addClass('animate__animated animate__fadeInUp')
+    },
+    {
+        offset: '50%'
+    })
+    $('.js-animation-2').waypoint(function(direction) {
+        $('.js-animation-2').addClass('animate__animated animate__fadeInUp')
+    },
+    {
+        offset: '50%'
+    })
+    $('.js-animation-3').waypoint(function(direction) {
+        $('.js-animation-3').addClass('animate__animated animate__fadeInUp')
+    },
+    {
+        offset: '50%'
+    })
+    $('.js-animation-4').waypoint(function(direction) {
+        $('.js-animation-4').addClass('animate__animated animate__fadeInUp')
+    },
+    {
+        offset: '50%'
+    })
+    $('.js-animation-5').waypoint(function(direction) {
+        $('.js-animation-5').addClass('animate__animated animate__fadeInUp')
+    },
+    {
+        offset: '50%'
+    })
+    $('.js-animation-6').waypoint(function(direction) {
+        $('.js-animation-6').addClass('animate__animated animate__fadeInUp')
+    },
+    {
+        offset: '50%'
+    })
+
     /* NAVIGATION SCROLL */
     // Select all links with hashes
     $('a[href*="#"]')

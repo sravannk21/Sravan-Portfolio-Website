@@ -433,3 +433,44 @@ footer {
     border-radius: 50%;
     box-shadow: 0 0.25rem 0.5rem 0 rgb(36, 36, 36);
   }
+
+
+/*-------------------------*/
+/*ANIMATIONS*/
+/*-------------------------*/
+.about-img {
+    opacity: 0;
+}
+.about-img.animate__animated {
+    opacity: 1;
+}
+.js-animation-2 {
+    opacity: 0;
+}
+.js-animation-2.animate__animated {
+    opacity: 1;
+}
+.js-animation-3 {
+    opacity: 0;
+}
+.js-animation-3.animate__animated {
+    opacity: 1;
+}
+.js-animation-4 {
+    opacity: 0;
+}
+.js-animation-4.animate__animated {
+    opacity: 1;
+}
+.js-animation-5 {
+    opacity: 0;
+}
+.js-animation-5.animate__animated {
+    opacity: 1;
+}
+.js-animation-6 {
+    opacity: 0;
+}
+.js-animation-6.animate__animated {
+    opacity: 1;
+}
