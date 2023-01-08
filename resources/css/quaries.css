@@ -62,7 +62,6 @@
         padding: 0 3%;
     }
     body {font-size: 16px;}
-    .main-nav {display: none}
     section{padding: 40px 0;}
     .about-section .span-1-of-2:first-child {width: 100%;}
     .about-content-box {width: 100% }
@@ -80,8 +79,23 @@
     .contact-info-box {margin-top: 20px;}
     .contact-section .span-1-of-2:first-child {display: none;}
     .contact-section .span-1-of-2:last-child {width: 100%;}
-    .about-section .background-text {right: 0;}
+    .background-text {display: none;}
     .scroll-top{display:  none;}
+
+    /*MOBILE NAVIGATION*/
+    .mobile-nav-icon {
+        opacity: 1;
+    }
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 2rem;
+        position: absolute;
+    }
+    .main-nav li {display: block;}
+    .logo{
+        float: left;
+    }
 }
 
 

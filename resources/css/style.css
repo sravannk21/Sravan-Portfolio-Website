@@ -31,7 +31,7 @@ section {
     color: rgba(198, 188, 188, 0.064);
     position:absolute;
     margin-top: 35px;
-    z-index: -1;
+    z-index: 0;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
@@ -133,13 +133,7 @@ header {
 .logo h1 {
     margin:0;
 }
-.sticky {
-    width: 100%;
-    background-color: #000;
-    position: fixed;
-    box-shadow: 0 2px 2px #212121;
-    z-index: 9999;
-}
+
 .main-nav {
     float: right;
 }
@@ -166,6 +160,29 @@ header {
 .main-nav li a:active {
     padding-bottom: 6px;
     border-bottom: 1.5px solid #ffbd39;
+}
+
+/*-------------------------*/
+/*STICKY NAVIGATION*/
+/*-------------------------*/
+.sticky {
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    box-shadow: 0 2px 2px #212121;
+    z-index: 9999;
+}
+/*-------------------------*/
+/*MOBILE NAVIGATION*/
+/*-------------------------*/
+.mobile-nav-icon {
+    float: right;
+    margin-top: 10px;
+    opacity: 0;
+}
+.mobile-nav-icon i {
+    font-size: 200%;
+    cursor: pointer;
 }
 
 /*-------------------------*/
@@ -474,3 +491,4 @@ footer {
 .js-animation-6.animate__animated {
     opacity: 1;
 }
+

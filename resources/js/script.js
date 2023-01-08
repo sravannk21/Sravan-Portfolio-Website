@@ -12,6 +12,22 @@ $('document').ready(function(){
         offset: '60px'
     })
 
+    /* MOBILE NAVIGATION */
+    $('.js--mobile-nav').click(function() {
+        var nav = $('.js--main-nav')
+        nav.slideToggle(200)
+        /*code for change icon to close icon*/
+        var icon = $('.js--mobile-nav i')
+        if (icon.hasClass('ion-navicon-round')) {
+            icon.addClass('ion-close-round');
+            icon.removeClass('ion-navicon-round');
+        } else {
+            icon.addClass('ion-navicon-round');
+            icon.removeClass('ion-close-round');
+        }
+    })
+
+
     /* Scroll to Top*/
     $('.js-contact').waypoint(function(direction){
         if(direction == 'down'){
